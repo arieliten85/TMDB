@@ -1,0 +1,24 @@
+.emptyBox {
+ 
+  display: flex;
+  justify-content: center;
+
+  div {
+   
+    width: 85%;
+    height: 162px;
+    margin: 80px;
+    background: #00000052;
+
+    h4{
+        padding: 20px;
+    }
+    p{
+        padding: 20px;
+        font-size: 20px;
+        color: white;
+        font-family: 500;
+        font-size: 17px;
+    }
+  }
+}

@@ -1,0 +1,168 @@
+.main {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  min-height: 110%;
+  width: 100%;
+  background-color: rgb(41, 41, 41);
+  position: absolute;
+}
+
+.imageBox {
+  top: 80px;
+  padding: 30px;
+  margin: 20px;
+  background: #00000091;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .movieImageSelect {
+    width: 50%;
+  }
+
+  .title,
+  p {
+    color: white;
+    padding: 10px;
+    font-size: 1.6vmax;
+  }
+
+  .infoBox {
+    //border: rgb(153, 0, 255) solid;
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      font-size: 5vw;
+      text-align: center;
+    }
+  }
+  .botonesBox {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  //tablet
+}
+
+@media screen and (min-width: 1280px) {
+  .imageBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+    padding: 70px;
+    margin: 100px;
+    .movieImageSelect {
+      width: 30%;
+    }
+
+    .infoBox {
+      width: 70%;
+      h4 {
+        font-size: 5vw;
+        width: 100%;
+      }
+    }
+  }
+
+  .infoBox {
+    width: 50%;
+  }
+}
+
+// .MovieSelectContainers {
+//   // background: url(../img/portadas/img-01.jpg) no-repeat left;
+//   // background-size: cover;
+//   // height: 100%;
+
+//   border: solid red 2px;
+//   height: 800px;
+
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+
+//   .MovieBoxSelect {
+//     border: solid rgb(34, 255, 0) 2px;
+//     text-align: center;
+//     //max-width: 300px;
+//     padding: 20px;
+
+//   }
+
+//   .movieImageSelect {
+//     width: 55%;
+//   }
+//   .movieTitleSelect {
+//     color: white;
+//     letter-spacing: 2px;
+//     font-size: 5vw;
+//     padding: 5px;
+//   }
+
+//   .postContainet {
+//     border: solid red 2px;
+//   }
+//   .descriptionContainer {
+//     border: solid red 2px;
+//     p {
+//       color: white;
+//       padding: 5px;
+//       text-align: left;
+//       line-height: 22px;
+//     }
+//   }
+
+//   .movieTitleSelect2{
+//    display: none;
+//   }
+
+//   //tablet
+//   @media screen and (min-width: 810px) {
+//     .MovieBoxSelect {
+//       display: flex;
+//       flex-direction: column;
+//     }
+
+//     .movieImageSelect {
+//       width: 400px;
+//     }
+//   }
+
+// //Destok
+//   @media screen and (min-width: 1280px) {
+
+//     .postContainet,.descriptionContainer {
+//      width: 50%;
+//     }
+//     .descriptionContainer{
+//       width: 50%;
+//     }
+
+//     .MovieBoxSelect {
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: center;
+//     }
+
+//     .movieTitleSelect {
+//       display: none;
+//     }
+
+//     .movieTitleSelect2{
+//      display: block;
+//      color: white;
+//      letter-spacing: 2px;
+//      font-size: 5vw;
+//      padding: 5px;
+//     }
+//   }
+// }
